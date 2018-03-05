@@ -1,0 +1,70 @@
+html{ height:100% }
+body { height:100%; padding-top: 80px; overflow-y: scroll; overflow-x: hidden; }
+.tab-content{ background: #000000; background-color: #000000; color: #dddddd; min-height:100%; }
+.title { font-weight: 300; letter-spacing: .1em; }
+
+.navbar-inverse { padding: 0.6em 1.2em; }
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    border-bottom: 3px solid #fff;
+}
+
+#home_img{ width:100%; min-width: 1500px; }
+
+footer{ background: #000000; position: absolute; width:100%; }
+footer dl.sub-logo { text-align: center; }
+footer dl.sub-logo dt h3 { color: #fff; font-size: 12px; }
+footer dl.sub-logo dd { margin: 0; padding: 0; }
+footer dl.sub-logo dd img { margin: auto; height: 40px; }
+footer dl.sub-logo dd { margin-bottom: 30px; }
+
+@media only screen and (min-width: 1200px) {
+  footer dl.sub-logo dt h3 { top: -15px; }
+  footer dl.sub-logo dd { margin-right: 10px; }
+  footer dl.sub-logo dd img { height: 36px; }
+}
+
+@media only screen and (min-width: 992px) {
+  footer dl.sub-logo dt h3 { top: -12px; }
+  footer dl.sub-logo dd { margin-right: 10px; }
+  footer dl.sub-logo dd img { height: 38px; }
+}
+
+@media only screen and (min-width: 330px) {
+  footer dl.sub-logo { margin: 0; overflow: hidden; }
+  footer dl.sub-logo dt, footer dl.sub-logo dd { display: inline-block; }
+  footer dl.sub-logo dt { margin: 0 5px; }
+  footer dl.sub-logo dt h3 { color: #fff; border: 1px solid #fff; padding: 5px .5em; position: relative; top: -15px; }
+  footer dl.sub-logo dd { margin-bottom: 0; }
+}
+
+@media only screen and (max-width: 360px) {
+  body{ padding-top: 120px}
+}
+
+
+div h1{ margin-bottom:40px; }
+p.intro{ text-align: justify; line-height: 150%; font-size: 18px; letter-spacing: 1px; }
+p.intro span b{font-size: 22px; color: firebrick;}
+
+div.intro{ width:85%; text-align: center; margin: 0px auto 60px; }
+div.key-person{ width: 85%; text-align: center; margin: 90px auto;}
+img.key-person{ width: 300px; padding: 0px 20px 20px;}
+
+.person-intro{ text-align: justify; line-height: 150%; font-size: 16px; letter-spacing: 1px; }
+p.person-intro span b{ text-align: center; font-size: 22px; line-height: 150%; color: #C0C0C0;}
+
+div.ticket-info{ width: 100%;}
+
+p{ font-size: 15px; }
+dl.ticket-info dt { font-size: 25px; color: firebrick; padding-top: 30px; }
+
+@media (max-width: 768px) {
+  .hidden-xs-new {
+    display: none !important;
+  }
+}
